@@ -1,0 +1,10 @@
+1.	What type of Machine Learning Algorithms would be used to allow your bipedal bot to walk in various terrains?
+Ans: I would use Reinforcement learning, Custom Vision techniques for a bot to walk in various terrains.
+2.	What is the difference between online learning and out-of-the-core learning?
+Ans: Online learning is type of learning system where machine learns from small chunks of continuous streaming data.
+3.	What is the importance of a train-dev set in machine learning?
+Ans: It helps us to figure out whether our model is overfitted or it has some data mismatch
+4.	If suppose your model is poorly generalizing the unseen data, what possibilities are there, and how you will solve those situations?
+Ans: This problem we term as overfitting, so to generalize we can go         for cross validation techniques. You can for Regularization , post, pre pruning techniques so it best generalise on the data.
+5.	What is data leakage and what can go wrong if you tune your hyperparameters on the test set?
+Ans:  Data Leakage happens when your validation and Testing set is not representative meaning it has some missing data. If u apply hyperparameters on test data than that data would be seen and then it won’t give u the actual accuracy.
