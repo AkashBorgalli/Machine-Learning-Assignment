@@ -1,0 +1,17 @@
+1. What is the difference between a univariate and a multivariate function?
+Ans: univariate talks about single feature analysis whereas multivariate talks about more than 2 features analysis
+2. What are the various ways to check the applicability of a particular regression
+model on a dataset?
+Ans: does dataset shows linear pattern or not?
+3. What are the basic assumptions of the Linear Regression Algorithm?
+Ans:1.linear relation between x(features) & y(target)
+    2. residual or error terms should show constant variance
+	3. Multi-collinearity should not be there.
+	4. The errors should follow a normal distribution
+4. What are the different Evaluation metrics used in Linear Regression?
+Ans: The evaluation Metrics are MAE, MSE, RMSE, R2 and Adjusted R2
+5. Why do we square the residuals instead of the Modulus?
+Ans: so that it will be able to contribute to maximum value of the error or the positive and negative values do not cancel each other and the error on either side is captured. Sum up these squared errors to get the sum of squared residuals!
+6. Which evaluation metric should you prefer if you have a lot of outliers present in
+it?
+Ans: Mean Absolute Error
