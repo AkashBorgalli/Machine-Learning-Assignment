@@ -1,0 +1,13 @@
+1. Which Linear Regression algorithm we can use if we have a training set with
+millions of features?
+Ans: batch gradient descent, stochastic gradient descent, or mini-batch gradient descent.
+2. Can the Gradient Descent Algorithm get stuck in a local minimum when training a
+linear regression model?
+Ans: No, because its cost function doesnot generate local minima..but if we apply the same cost funtion substituting sigmoid function it will get stuck in local minima.
+3. Do all Gradient Descent Algorithms lead to the same model if they are running for
+the same no of epochs?
+Ans: No. The issue is that stochastic gradient descent and mini-batch gradient descent have randomness built into them. This means that they can find their way to nearby the global optimum, but they generally don't converge.
+4. If you are doing a batch gradient descent and you are monitoring the validation
+error at every epoch. If the validation error is constantly increasing what can be
+the problem? How to fix that?
+Ans: the learning rate can be too high in that case and to fix this issue we can keep learning rate small so it learns slowly.
