@@ -1,0 +1,18 @@
+1. Which Linear Regression training algorithm can you use if you have a training set with millions of features?
+Ans: We could use batch gradient descent, stochastic gradient descent or mini-batch gradient descent
+
+2. Can Gradient descent get stuck in a local minimum when training a logistic regression model?
+Ans: Yes, if you use linear regression cost function substituting signoid function on h(theta) but if you have log function then it won't.
+
+3. Do all Gradient Descent algorithms lead to the same model, provided they run for
+the same no. of epochs?
+Ans: I think No because the issue is that stochastic gradient descent and mini-batch gradient descent have randomness built into them. This means that they can find their way to nearby the global optimum, but they generally don't converge. One way to help them converge is to gradually reduce the learning rate hyperparameter.
+
+4. Suppose you are using a Polynomial Regression and you plot the learning curves
+and you notice there is a large gap between training and validation error. What is the problem? How to solve it?
+Ans: It sounds like its a overfitting problem. what we can do is either reduce the degree of freeedom(meaning power of x feature) or add more data or apply regularization techniques like L1 and L2.
+
+5. Suppose the features in your training dataset are in different scales. Which
+algorithms will suffer from this? How to handle this situation?
+Ans: 1. Distance based Algorithms like KNN, K-Means.
+     2. Gradient based Algorithms like Linear, Logistic, Neural Network Algorithms.
