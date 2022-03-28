@@ -2,7 +2,7 @@
 Ans: We could use batch gradient descent, stochastic gradient descent or mini-batch gradient descent
 
 2. Can Gradient descent get stuck in a local minimum when training a logistic regression model?
-Ans: Yes, if you use linear regression cost function substituting signoid function on h(theta) but if you have log function then it won't.
+Ans: Yes, if you use linear regression cost function substituting sigmoid function on h(theta) but if you have log function then it won't.
 
 3. Do all Gradient Descent algorithms lead to the same model, provided they run for
 the same no. of epochs?
