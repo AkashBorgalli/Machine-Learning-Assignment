@@ -12,7 +12,6 @@ Ans: I think No because the issue is that stochastic gradient descent and mini-b
 and you notice there is a large gap between training and validation error. What is the problem? How to solve it?
 Ans: It sounds like its a overfitting problem. what we can do is either reduce the degree of freeedom(meaning power of x feature) or add more data or apply regularization techniques like L1 and L2.
 
-5. Suppose the features in your training dataset are in different scales. Which
-algorithms will suffer from this? How to handle this situation?
+5. Suppose the features in your training dataset are in different scales. Which algorithms will suffer from this? How to handle this situation?
 Ans: 1. Distance based Algorithms like KNN, K-Means.
      2. Gradient based Algorithms like Linear, Logistic, Neural Network Algorithms.
