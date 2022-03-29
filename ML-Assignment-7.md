@@ -1,0 +1,21 @@
+## Assignment 7
+
+**1. How sci-kit learn module performs feature scaling?**
+
+Ans:
+
+**2. If you are performing feature scaling, what you will prefer Standardisation or Normalization?**
+
+Ans: Depends what kind of data we are bringing to the scale if its numeric or tabular dataset i would go with Standarization so i quickly reach global minima using GD Algorithm whereas if i m working on images there i need to convert image range from 0 to 255 there i will use normalization. 
+
+**3. What is the difference between the residual sum of squares and regularization?**
+
+Ans:
+
+**4. Differentiate between L1, L2, and Elastic Net regularization on the basis of the alpha parameter in scikit learn?**
+
+Ans:
+
+**5. Suppose overfitting is happening, what kind of regularization you will prefer to perform?**
+
+Ans:
