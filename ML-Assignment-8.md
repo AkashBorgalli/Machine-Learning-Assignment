@@ -19,5 +19,5 @@ Ans: I would use LogNormal, SquareRoot Transform, Reciprocal Transformation, Box
 
 **5. How to perform Feature Engineering on Unknown features?**
 
-Ans. I would be going with boosting techniques.
+Ans. I would be going with boosting techniques like AdaBoost, Gradient Boosting, XG-Boost.
 
