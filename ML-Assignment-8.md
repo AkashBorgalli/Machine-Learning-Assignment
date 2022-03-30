@@ -5,7 +5,7 @@ Ans. It helps you to build good model, it makes more simpler and interpretable w
 
 **2. Can we use PCA for feature selection? If yes, then why?**
 
-Ans. 
+Ans. PCA is used for reducing the dimensionality of the dataset(reducing features from the dataset).It doesnot do feature selection.ForExample, If i have 25 features i can convert those 25 features to 5 features to solve underfitting problem. It basically creates a new vector space with the reduced feature number. 
 
 **3. What’s the difference between forwarding Feature Selection and Backward Feature Selection?**
 
