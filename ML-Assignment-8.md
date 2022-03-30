@@ -3,9 +3,9 @@ the features?**
 
 Ans. It helps you to build good model, it makes more simpler and interpretable where you drop non-correlated data w.r.t target attribute. F-test is used to compare means of different groups specifically when there are more than 2 groups. The larger the f-score then that feature has highest contribution to target label.
 
-**2. Can we use PCA for feature selection? If yes, then why?**
+**2. Can we use PCA for feature extraction? If yes, then why?**
 
-Ans. PCA is used for reducing the dimensionality of the dataset(reducing features from the dataset).It doesnot do feature selection.ForExample, If i have 25 features i can convert those 25 features to 5 features to solve underfitting problem. It basically creates a new vector space with the reduced feature number. 
+Ans. PCA is used for reducing the dimensionality of the dataset(reducing features from the dataset).It doesnot do feature selection.ForExample, If i have 25 features i can convert those 25 features to 5 features to solve underfitting problem. It basically creates a new vector space with the reduced feature number. You can say, It is a Feature Extraction technique.
 
 **3. What’s the difference between forwarding Feature Selection and Backward Feature Selection?**
 
