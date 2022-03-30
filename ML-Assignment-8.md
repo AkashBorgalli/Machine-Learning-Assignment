@@ -9,9 +9,9 @@ Ans.
 
 **3. What’s the difference between forwarding Feature Selection and Backward Feature Selection?**
 
-Ans: <u>Forwarding Feature Selection</u>: This is an iterative method wherein we start with the best performing variable against the target. Next, we select another variable that gives the best performance in combination with the first selected variable. This process continues until the preset criterion is achieved.
+Ans: <ins>Forwarding Feature Selection</ins>: This is an iterative method wherein we start with the best performing variable against the target. Next, we select another variable that gives the best performance in combination with the first selected variable. This process continues until the preset criterion is achieved.
 
-<u>Backward feature Selection</u>: This method works exactly opposite to the Forward Feature Selection method. Here, we start with all the features available and build a model. Next, we take variable from the model which gives the best evaluation measure value. This process is continued until the preset criterion is achieved.
+<ins>Backward feature Selection</ins>: This method works exactly opposite to the Forward Feature Selection method. Here, we start with all the features available and build a model. Next, we take variable from the model which gives the best evaluation measure value. This process is continued until the preset criterion is achieved.
 
 **4. How do you transform a skewed distribution into a Normal Distribution? Name some techniques?**
 
