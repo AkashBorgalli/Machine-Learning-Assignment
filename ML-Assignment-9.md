@@ -10,12 +10,12 @@ Ans: features are replaced with a blend of posterior probability of the target g
 
 *3. If you have a date column in our dataset, then how will you perform Feature Engineering in pandas?*
 
-Ans: depends what kind of feature engineering you are performing.
+Ans: Depends what kind of feature engineering you are performing. firstly will convert it into pandas datetime format..then would start accessing by its day of the month, month, hour, dayname etc.
 
 *4. How do you perform feature selection with Categorical Data?*
 
-Ans:
+Ans: I would go for Chi-Square test or IG(mutual information) to perform feature selection when i have categorical data.
 
 *5. When would you remove Correlated Variables?*
 
-Ans:
+Ans: when in a dataset 2 or more independent variables show correlation in that case you should remove correlated variables this concept is called Multi-collinearity.
