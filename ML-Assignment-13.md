@@ -1,12 +1,10 @@
 *1. What are the different types of logistic Regression?*
 
 Ans: There are 3 types of logistic Regression and those are, <br/>
-     <ins>1. Binary logistic regression</ins>: There are just two possible outcome answers.<br/>  
-     
-     <ins>2. Multinomial logistic regression </ins>: There are more than two possible outcome answers.<br/>
-     
-     <ins>3. Ordinal logistic regression </ins>: Ordinal logistic regression is also a model where there are multiple classes that an item 
-     can be classified as; <br/>
+     <ins>1. Binary logistic regression</ins>: There are just two possible outcome answers.<br/>
+     <ins>2. Multinomial logistic regression</ins>: There are more than two possible outcome answers.<br/> 
+     <ins>3. Ordinal logistic regression</ins> : Ordinal logistic regression is also a model where there are multiple classes that an item 
+     can be classified as;
      however, in this case an ordering of classes is required. Classes do not need to be proportionate.<br/>
      The distance between each class can vary. Example, Ranking restaurants on a scale of 0 to 5 stars.	<br/>
 	 
